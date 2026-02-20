@@ -1,4 +1,6 @@
+
 public class Challenge11 {
+
     public static void main(String[] args) {
         System.out.println(sumDigits(99998));
     }
@@ -9,7 +11,7 @@ public class Challenge11 {
         }
 
         int sum = 0;
-        while(number > 9) {
+        while (number > 9) {
             sum += (number % 10);
             number = number / 10;
         }
